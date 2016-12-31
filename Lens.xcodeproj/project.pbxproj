@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0437525230A5286F8F8C8DE9 /* Pods_LensTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90654C52309C72DD3AD7630 /* Pods_LensTests.framework */; };
 		2841AD9C1E15DA2100CF9116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841AD9B1E15DA2100CF9116 /* AppDelegate.swift */; };
 		2841AD9E1E15DA2100CF9116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841AD9D1E15DA2100CF9116 /* ViewController.swift */; };
 		2841ADA11E15DA2100CF9116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2841AD9F1E15DA2100CF9116 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		2841ADA61E15DA2100CF9116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2841ADA41E15DA2100CF9116 /* LaunchScreen.storyboard */; };
 		2841ADB11E15DA2100CF9116 /* LensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841ADB01E15DA2100CF9116 /* LensTests.swift */; };
 		2841ADBC1E15DA2100CF9116 /* LensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841ADBB1E15DA2100CF9116 /* LensUITests.swift */; };
+		284A438C1E18181000043483 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 284A438B1E18181000043483 /* GoogleService-Info.plist */; };
+		36DDD9180CA6CB7592C00193 /* Pods_Lens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A64F74512A65A32B160092 /* Pods_Lens.framework */; };
+		951CE2C741C5DEADC54697FD /* Pods_LensUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE256FB0921C39C6948108 /* Pods_LensUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CE256FB0921C39C6948108 /* Pods_LensUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LensUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B35E5A707AD51CECA686FA /* Pods-Lens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lens.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lens/Pods-Lens.debug.xcconfig"; sourceTree = "<group>"; };
 		2841AD981E15DA2100CF9116 /* Lens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2841AD9B1E15DA2100CF9116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2841AD9D1E15DA2100CF9116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		2841ADB71E15DA2100CF9116 /* LensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2841ADBB1E15DA2100CF9116 /* LensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensUITests.swift; sourceTree = "<group>"; };
 		2841ADBD1E15DA2100CF9116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284A438B1E18181000043483 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6278F4E0906233CD12B4B307 /* Pods-LensUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LensUITests/Pods-LensUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68F6D723E6CB95F67CB3EC7B /* Pods-Lens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lens.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lens/Pods-Lens.release.xcconfig"; sourceTree = "<group>"; };
+		D90654C52309C72DD3AD7630 /* Pods_LensTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LensTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFFE2F5F103BBB9C65DD16B /* Pods-LensUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LensUITests/Pods-LensUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEFAEE4E6D7FFDA67C26A1BF /* Pods-LensTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LensTests/Pods-LensTests.release.xcconfig"; sourceTree = "<group>"; };
+		F738EF11A89E16AD905B2A71 /* Pods-LensTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LensTests/Pods-LensTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9A64F74512A65A32B160092 /* Pods_Lens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DDD9180CA6CB7592C00193 /* Pods_Lens.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0437525230A5286F8F8C8DE9 /* Pods_LensTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951CE2C741C5DEADC54697FD /* Pods_LensUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				2841ADAF1E15DA2100CF9116 /* LensTests */,
 				2841ADBA1E15DA2100CF9116 /* LensUITests */,
 				2841AD991E15DA2100CF9116 /* Products */,
+				2850BDC83CB8FE8D5964376A /* Pods */,
+				E2D2F6646EA72CE51D1344A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,7 @@
 		2841AD9A1E15DA2100CF9116 /* Lens */ = {
 			isa = PBXGroup;
 			children = (
+				284A438B1E18181000043483 /* GoogleService-Info.plist */,
 				2841AD9B1E15DA2100CF9116 /* AppDelegate.swift */,
 				2841AD9D1E15DA2100CF9116 /* ViewController.swift */,
 				2841AD9F1E15DA2100CF9116 /* Main.storyboard */,
@@ -125,6 +145,29 @@
 			path = LensUITests;
 			sourceTree = "<group>";
 		};
+		2850BDC83CB8FE8D5964376A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27B35E5A707AD51CECA686FA /* Pods-Lens.debug.xcconfig */,
+				68F6D723E6CB95F67CB3EC7B /* Pods-Lens.release.xcconfig */,
+				F738EF11A89E16AD905B2A71 /* Pods-LensTests.debug.xcconfig */,
+				DEFAEE4E6D7FFDA67C26A1BF /* Pods-LensTests.release.xcconfig */,
+				6278F4E0906233CD12B4B307 /* Pods-LensUITests.debug.xcconfig */,
+				DAFFE2F5F103BBB9C65DD16B /* Pods-LensUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2D2F6646EA72CE51D1344A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9A64F74512A65A32B160092 /* Pods_Lens.framework */,
+				D90654C52309C72DD3AD7630 /* Pods_LensTests.framework */,
+				04CE256FB0921C39C6948108 /* Pods_LensUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2841ADC01E15DA2100CF9116 /* Build configuration list for PBXNativeTarget "Lens" */;
 			buildPhases = (
+				0AB5B93E5714FCF63C84AF25 /* [CP] Check Pods Manifest.lock */,
 				2841AD941E15DA2100CF9116 /* Sources */,
 				2841AD951E15DA2100CF9116 /* Frameworks */,
 				2841AD961E15DA2100CF9116 /* Resources */,
+				A0FB70A91375D3B1D8B45897 /* [CP] Embed Pods Frameworks */,
+				0AC93CCE41ABBA357D54BF46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2841ADC31E15DA2100CF9116 /* Build configuration list for PBXNativeTarget "LensTests" */;
 			buildPhases = (
+				05EC06DBCA3549967038DC81 /* [CP] Check Pods Manifest.lock */,
 				2841ADA81E15DA2100CF9116 /* Sources */,
 				2841ADA91E15DA2100CF9116 /* Frameworks */,
 				2841ADAA1E15DA2100CF9116 /* Resources */,
+				583C6C1724A167763974D162 /* [CP] Embed Pods Frameworks */,
+				B92529CBC2657EFC69E14D80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2841ADC61E15DA2100CF9116 /* Build configuration list for PBXNativeTarget "LensUITests" */;
 			buildPhases = (
+				6643E8375E227889E213DA45 /* [CP] Check Pods Manifest.lock */,
 				2841ADB31E15DA2100CF9116 /* Sources */,
 				2841ADB41E15DA2100CF9116 /* Frameworks */,
 				2841ADB51E15DA2100CF9116 /* Resources */,
+				6DA40FACDF5E91C1C8DF1ABE /* [CP] Embed Pods Frameworks */,
+				EE7B865A816A7B079C9CBCF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2841ADA61E15DA2100CF9116 /* LaunchScreen.storyboard in Resources */,
+				284A438C1E18181000043483 /* GoogleService-Info.plist in Resources */,
 				2841ADA31E15DA2100CF9116 /* Assets.xcassets in Resources */,
 				2841ADA11E15DA2100CF9116 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +303,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05EC06DBCA3549967038DC81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0AB5B93E5714FCF63C84AF25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0AC93CCE41ABBA357D54BF46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lens/Pods-Lens-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		583C6C1724A167763974D162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LensTests/Pods-LensTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6643E8375E227889E213DA45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA40FACDF5E91C1C8DF1ABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LensUITests/Pods-LensUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FB70A91375D3B1D8B45897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lens/Pods-Lens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92529CBC2657EFC69E14D80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LensTests/Pods-LensTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7B865A816A7B079C9CBCF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LensUITests/Pods-LensUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2841AD941E15DA2100CF9116 /* Sources */ = {
@@ -399,6 +590,7 @@
 		};
 		2841ADC11E15DA2100CF9116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B35E5A707AD51CECA686FA /* Pods-Lens.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lens/Info.plist;
@@ -410,6 +602,7 @@
 		};
 		2841ADC21E15DA2100CF9116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F6D723E6CB95F67CB3EC7B /* Pods-Lens.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lens/Info.plist;
@@ -421,6 +614,7 @@
 		};
 		2841ADC41E15DA2100CF9116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F738EF11A89E16AD905B2A71 /* Pods-LensTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LensTests/Info.plist;
@@ -433,6 +627,7 @@
 		};
 		2841ADC51E15DA2100CF9116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFAEE4E6D7FFDA67C26A1BF /* Pods-LensTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LensTests/Info.plist;
@@ -445,6 +640,7 @@
 		};
 		2841ADC71E15DA2100CF9116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6278F4E0906233CD12B4B307 /* Pods-LensUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LensUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +652,7 @@
 		};
 		2841ADC81E15DA2100CF9116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFFE2F5F103BBB9C65DD16B /* Pods-LensUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LensUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +681,7 @@
 				2841ADC21E15DA2100CF9116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2841ADC31E15DA2100CF9116 /* Build configuration list for PBXNativeTarget "LensTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +690,7 @@
 				2841ADC51E15DA2100CF9116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2841ADC61E15DA2100CF9116 /* Build configuration list for PBXNativeTarget "LensUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +699,7 @@
 				2841ADC81E15DA2100CF9116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

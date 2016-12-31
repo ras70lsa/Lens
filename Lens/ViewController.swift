@@ -7,17 +7,37 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        FIRApp.configure()
+        signIn("ryno48ryno@aim.com", password: "password")
+        
+    }
+    
+    func createUser(email: String, password: String) {
+        FIRAuth.auth()?.createUserWithEmail(email, password: password, completion: { (user, error) in
+            
+        })
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func signIn(email: String, password: String) {
+        
+            let ref = FIRDatabase.database().reference()
+            let val = ref.child("value");
+            print("BEFORE")
+            print(val.setValue("Dif"))
+            print("AFTER")
+        
     }
 
 
